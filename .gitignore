@@ -1,0 +1,12 @@
+node_modules/
+build/
+flask-server/run1
+react-tw-client/node_modules
+
+__pycache__/
+env/
+venv/
+*.pyc
+
+.DS_Store
+.env

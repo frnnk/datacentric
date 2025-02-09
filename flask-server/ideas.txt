@@ -1,0 +1,20 @@
+feature where you can help correct the bots response and send it in -> compile a database
+users login, history of chats?
+new chats maybe
+
+hero page (already planned) - easy, authentication not easy <- focus on this
+
+dashboard page? upload model, configure code
+somewhere to upload model and then configure code page (load ur model)
+tweak temperature topk topp
+three blocks? editable code block, upload, and tweak parameters
+code block: https://github.com/react-simple-code-editor/react-simple-code-editor?tab=readme-ov-file
+unzip, send to backend, virtual repository tree on website?
+https://www.npmjs.com/package/react-folder-tree
+https://mui.com/x/react-tree-view/
+unzip any folders, -> present on this react tree
+
+
+main chat page could be a lets go page <- focus on this
+chat interface, edit responses (with memory!), save to a database
+set conversation block length
