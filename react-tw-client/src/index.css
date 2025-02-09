@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .scrollBar {
+    &::-webkit-scrollbar {
+      width: 0.75rem;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: theme('colors.neutral.700');
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: theme('colors.neutral.500');
+    }
+
+    /* @screen dark {
+      &::-webkit-scrollbar-track {
+        background-color: theme('colors.neutral.700');
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: theme('colors.neutral.500');
+      }
+    } */
+  }
+}
+
+@font-face {
+  font-family: "HBF"; /* Name of the font */
+  src: url("../public/fonts/Helvetica-Bold-Font.ttf") format("truetype");
+  font-weight: normal; /* Specify weight (e.g., normal, bold) */
+  font-style: normal;  /* Specify style (e.g., normal, italic) */
+}
+
+@font-face {
+  font-family: "Inter"; /* Name of the font */
+  src: url("../public/fonts/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-weight: normal; /* Specify weight (e.g., normal, bold) */
+  font-style: normal;  /* Specify style (e.g., normal, italic) */
+}
+
+body {
+  margin: 0;
+  font-family: "Inter" 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
